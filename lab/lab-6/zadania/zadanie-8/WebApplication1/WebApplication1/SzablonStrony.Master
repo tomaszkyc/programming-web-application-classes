@@ -1,0 +1,64 @@
+﻿<%@ Master Language="C#" AutoEventWireup="true" CodeBehind="SzablonStrony.master.cs" Inherits="WebApplication1.SzablonStrony" %>
+
+<%@ Register src="Kontrolki/Kategorie.ascx" tagname="Kategorie" tagprefix="uc1" %>
+
+<%@ Register src="Kontrolki/NoweProdukty.ascx" tagname="NoweProdukty" tagprefix="uc2" %>
+
+<%@ Register src="Kontrolki/WybraneProdukty.ascx" tagname="WybraneProdukty" tagprefix="uc3" %>
+
+<%@ Register src="Kontrolki/Licznik.ascx" tagname="Licznik" tagprefix="uc4" %>
+
+<!DOCTYPE html>
+
+<html>
+<head runat="server">
+    <title>Adventure Works</title>
+    <link href="App_Themes/NiebieskaSkorka/Style.css" rel="stylesheet" />
+    <asp:ContentPlaceHolder ID="head" runat="server">
+    </asp:ContentPlaceHolder>
+</head>
+<body>
+    <form id="form1" runat="server">
+        <div id="Strona">
+            <div id="Naglowek">
+                <asp:Image ID="logoImage" ImageUrl="~/Images/AWlogo.jpg" runat="server"/>
+                <uc4:Licznik ID="Licznik1" runat="server" />
+                <div id="Menu">
+                    <asp:SiteMapDataSource ID="MapaSerwisu" ShowStartingNode="false" runat="server"/>
+                    <asp:Menu StaticEnableDefaultPopOutImage="false" ID="MenuGlowne" runat="server" DataSourceID="MapaSerwisu" Orientation="Horizontal">
+                        <DynamicHoverStyle CssClass="ZaznaczonyElementMenu" />
+                        <DynamicMenuItemStyle CssClass="ElementMenuRozwijanego" />
+                        <StaticHoverStyle CssClass="ZaznaczonyElementMenu" />
+                        <StaticMenuItemStyle CssClass="ElementMenuNadrzednego" />
+                    </asp:Menu>
+                </div>
+                <div id="ObszarLogowania">
+                <asp:LoginView ID="LoginView1" runat="server">
+                    <LoggedInTemplate>
+                         <asp:LoginName ID="LoginName2" runat="server" FormatString="Witaj {0}!" />
+                    </LoggedInTemplate>
+                    <AnonymousTemplate>
+                        <a class="LinkObszaruLogowania" href="Zarejestruj.aspx">Zarejestruj</a>
+                    </AnonymousTemplate>
+                </asp:LoginView>
+                    |
+                    <asp:LoginStatus ID="LoginStatus1" runat="server" CssClass="LinkObszaruLogowania" LoginText="Zaloguj" LogoutAction="Redirect" LogoutPageUrl="~/Default.aspx" LogoutText="Wyloguj" />
+
+                </div>
+            </div>
+            <div id="Tresc">
+                <div id="PierwszyObszarBoczny"><uc1:Kategorie ID="Kategorie1" runat="server" />
+                </div>
+                                <div id="DrugiObszarBoczny"><uc2:NoweProdukty ID="NoweProdukty1" runat="server" />
+                </div>
+                <div id="ObszarRoboczy">
+                    <asp:ContentPlaceHolder ID="ContentPlaceHolder1" runat="server">
+                    </asp:ContentPlaceHolder>
+                </div>
+
+
+            </div>
+        </div>
+    </form>
+</body>
+</html>

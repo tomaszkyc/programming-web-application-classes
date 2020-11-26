@@ -1,0 +1,41 @@
+﻿<%@ Master Language="C#" AutoEventWireup="true" CodeBehind="SzablonStrony.master.cs" Inherits="WebApplication1.SzablonStrony" %>
+
+<!DOCTYPE html>
+
+<html>
+<head runat="server">
+    <title>Adventure Works</title>
+    <link href="App_Themes/NiebieskaSkorka/Style.css" rel="stylesheet" />
+    <asp:ContentPlaceHolder ID="head" runat="server">
+    </asp:ContentPlaceHolder>
+</head>
+<body>
+    <form id="form1" runat="server">
+        <div id="Strona">
+            <div id="Naglowek">
+                <asp:Image ID="logoImage" ImageUrl="~/Images/AWlogo.jpg" runat="server"/>
+                <div id="Menu">
+                    <asp:SiteMapDataSource ID="MapaSerwisu" ShowStartingNode="false" runat="server"/>
+                    <asp:Menu StaticEnableDefaultPopOutImage="false" ID="MenuGlowne" runat="server" DataSourceID="MapaSerwisu" Orientation="Horizontal">
+                        <DynamicHoverStyle CssClass="ZaznaczonyElementMenu" />
+                        <DynamicMenuItemStyle CssClass="ElementMenuRozwijanego" />
+                        <StaticHoverStyle CssClass="ZaznaczonyElementMenu" />
+                        <StaticMenuItemStyle CssClass="ElementMenuNadrzednego" />
+                    </asp:Menu>
+                </div>
+                <div id="ObszarLogowania">Zaloguj</div>
+            </div>
+            <div id="Tresc">
+                <div id="PierwszyObszarBoczny">Pierwszy obszar boczny</div>
+                                <div id="DrugiObszarBoczny">Drugi obszar boczny</div>
+                <div id="ObszarRoboczy">
+                    <asp:ContentPlaceHolder ID="ContentPlaceHolder1" runat="server">
+                    </asp:ContentPlaceHolder>
+                </div>
+
+
+            </div>
+        </div>
+    </form>
+</body>
+</html>

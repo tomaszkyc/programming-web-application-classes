@@ -1,0 +1,11 @@
+﻿<%@ Page Title="" Language="C#" MasterPageFile="~/SzablonStrony.Master" AutoEventWireup="true" CodeFile="Zarejestruj.aspx.cs" Inherits="WebApplication1.Zarejestruj" %>
+<asp:Content ID="Content1" ContentPlaceHolderID="head" runat="server">
+</asp:Content>
+<asp:Content ID="Content2" ContentPlaceHolderID="ContentPlaceHolder1" runat="server">
+    <asp:CreateUserWizard ID="CreateUserWizard1" title="" runat="server" AnswerLabelText="Odpowiedź na pytanie zabezpieczające" AnswerRequiredErrorMessage="Odpwoiedź na pytanie zabezpieczające jest wymagana." CancelButtonText="Anuluj" CompleteSuccessText="Konto zostało założone pomyślnie." ConfirmPasswordCompareErrorMessage="Hasło i potwierdzenie hasła muszą być takie same." ConfirmPasswordLabelText="Potwierdź hasło:" ConfirmPasswordRequiredErrorMessage="Potwierdzenie hasła jest wymagane." ContinueButtonText="Kontynuuj" CreateUserButtonText="Utwórz konto" DuplicateEmailErrorMessage="Obecny adres email jest już w użyciu. Wprowadź inny adres email." DuplicateUserNameErrorMessage="Obecny login jest już w użyciu. Wprowadź inny login." EmailRegularExpressionErrorMessage="Wprowadź inny adres email." EmailRequiredErrorMessage="Email jest wymagany." FinishCompleteButtonText="Zakończ" FinishPreviousButtonText="Poprzedni" InvalidAnswerErrorMessage="Niepoprawna odpowiedź. Wprowadź inną odpowiedź na pytanie zabezpieczające." InvalidEmailErrorMessage="Wprowadź poprawny adres email." InvalidPasswordErrorMessage="Minimalna długość hasła: {0}. Wymagana ilość liter: {1}." InvalidQuestionErrorMessage="Wprowadź inne pytanie zabezpieczające" PasswordLabelText="Hasło:" PasswordRegularExpressionErrorMessage="Wprowadź inne hasło." PasswordRequiredErrorMessage="Hasło jest wymagane." QuestionLabelText="Pytanie zabezpieczające:" QuestionRequiredErrorMessage="Pytanie zabezpieczające jest wymagane." StartNextButtonText="Dalej" StepNextButtonText="Dalej" StepPreviousButtonText="Poprzedni" UnknownErrorMessage="Konto nie zostało utworzone. Spróbuj ponownie później." UserNameLabelText="Login:" UserNameRequiredErrorMessage="Login jest wymagany.">
+        <WizardSteps>
+            <asp:CreateUserWizardStep runat="server" title="Uzupełnij poniższy formularz, aby utworzyć konto"/>
+            <asp:CompleteWizardStep runat="server" title="" />
+        </WizardSteps>
+    </asp:CreateUserWizard>
+</asp:Content>

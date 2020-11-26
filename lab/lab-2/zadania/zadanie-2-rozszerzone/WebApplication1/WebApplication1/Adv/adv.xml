@@ -1,0 +1,53 @@
+﻿<?xml version="1.0" encoding="utf-8" ?>
+<Advertisements>
+  <Ad>
+    <ImageUrl>~/Adv/2.jpg</ImageUrl>
+    <NavigateUrl>https://www.zara.com</NavigateUrl>
+    <alternateText>Kombinezon damski</alternateText>
+  </Ad>
+  <Ad>
+    <ImageUrl>~/Adv/3.jpg</ImageUrl>
+    <NavigateUrl>https://www.zara.com</NavigateUrl>
+    <alternateText>Luźna bluzka damska w pasy</alternateText>
+  </Ad>
+  <Ad>
+    <ImageUrl>~/Adv/4.jpg</ImageUrl>
+    <NavigateUrl>https://www.zara.com/pl/pl/lu%C5%BAny-top-z-nadrukiem-p08323178.html?v1=31480971</NavigateUrl>
+    <alternateText>Damska luźna koszula w kratę, krótki rękaw</alternateText>
+  </Ad>
+  <Ad>
+    <ImageUrl>~/Adv/5.jpg</ImageUrl>
+    <NavigateUrl>https://www.zara.com/pl/pl/koszulka-z-myszk%C4%85-miki-%C2%A9disney-p05644804.html?v1=29882313</NavigateUrl>
+    <alternateText>Luźny damski t-shirt z motywem Mickey Mouse</alternateText>
+  </Ad>
+  <Ad>
+    <ImageUrl>~/Adv/6.jpg</ImageUrl>
+    <NavigateUrl>https://www.zara.com/pl/pl/mezczyzna-l534.html</NavigateUrl>
+    <alternateText>Luźna, wzorzysta koszulka męska, krótki rękaw</alternateText>
+  </Ad>
+  <Ad>
+    <ImageUrl>~/Adv/7.jpg</ImageUrl>
+    <NavigateUrl>https://www.zara.com/pl/pl/koszulka-the-shining-%C2%A9--%E2%84%A2-warner-bros-p00679321.html?v1=31999192</NavigateUrl>
+    <alternateText>Czarny t-shirt z napisem, męski</alternateText>
+  </Ad>
+  <Ad>
+    <ImageUrl>~/Adv/8.jpg</ImageUrl>
+    <NavigateUrl>https://www.zara.com</NavigateUrl>
+    <alternateText>Krótkie spodenki w szarym odcieniu, męskie</alternateText>
+  </Ad>
+  <Ad>
+    <ImageUrl>~/Adv/9.jpg</ImageUrl>
+    <NavigateUrl>https://www.zara.com</NavigateUrl>
+    <alternateText>Koszulka z postacią z bajki Lion King, damska</alternateText>
+  </Ad>
+  <Ad>
+    <ImageUrl>~/Adv/10.jpg</ImageUrl>
+    <NavigateUrl>https://www.zara.com/pl/pl/garnitur-w-krat%C4%99-pT0706296064.html?v1=31978195</NavigateUrl>
+    <alternateText>Garnitur w kratę, szary, męski</alternateText>
+  </Ad>
+  <Ad>
+    <ImageUrl>~/Adv/11.jpg</ImageUrl>
+    <NavigateUrl>https://www.zara.com</NavigateUrl>
+    <alternateText>Luźna bluzka damska z napisem</alternateText>
+  </Ad>
+</Advertisements>

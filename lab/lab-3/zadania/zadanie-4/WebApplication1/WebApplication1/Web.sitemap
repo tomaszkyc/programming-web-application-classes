@@ -1,0 +1,22 @@
+﻿<?xml version="1.0" encoding="utf-8" ?>
+<siteMap xmlns="http://schemas.microsoft.com/AspNet/SiteMap-File-1.0" >
+  <siteMapNode>
+    
+    <siteMapNode url="Default.aspx" title="Strona główna"  description="Przenieś do strony głównej" />
+    <siteMapNode title="Produkty"  description="Zapoznaj się z ofertą">
+      <siteMapNode url="Produkty.aspx" title="Przeglądaj" description="Przejrzyj dostępne filmy" />
+      <siteMapNode url="Szukaj.aspx" title="Szukaj" description="Wyszukaj po nazwie" />
+    </siteMapNode>
+
+    <siteMapNode title="Ankiety" description="Wypełnij ankietę na stronie">
+      <siteMapNode url="Ankieta.aspx?view=nowy" title="Szukam roweru" description="Określ preferowane produkty" />
+      <siteMapNode url="Ankieta.aspx?view=wycieczki" title="Szukam towarzystwa na wycieczki" description="Opowiedz nam o sobie"       />
+    </siteMapNode>
+
+    <siteMapNode title="Informacje" description="Dowiedz się więcej o nas">
+      <siteMapNode url="Informacje.aspx" title="O nas" description="Dowiedz się więcej o nas" />
+      <siteMapNode url="Uwagi.aspx" title="Zgłoś uwagę" description="Zgłoś uwagę odnośnie działania serwisu" />
+    </siteMapNode>
+    
+  </siteMapNode>
+</siteMap>

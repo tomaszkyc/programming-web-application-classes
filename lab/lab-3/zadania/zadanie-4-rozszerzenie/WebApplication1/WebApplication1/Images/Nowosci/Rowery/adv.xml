@@ -1,0 +1,30 @@
+﻿<?xml version="1.0" encoding="utf-8" ?>
+
+<Advertisements>
+  <Ad>
+    <ImageUrl>~/Images/Nowosci/Rowery/1.png</ImageUrl>
+    <NavigateUrl>#</NavigateUrl>
+    <AlternateText>Cube Cross Race Pro, grey/flash yellow</AlternateText>
+  </Ad>
+  <Ad>
+    <ImageUrl>~/Images/Nowosci/Rowery/2.png</ImageUrl>
+    <NavigateUrl>#</NavigateUrl>
+    <AlternateText>Cube Cross Race Pro, grey/flash yellow</AlternateText>
+  </Ad>
+  <Ad>
+    <ImageUrl>~/Images/Nowosci/Rowery/3.png</ImageUrl>
+    <NavigateUrl>#</NavigateUrl>
+    <AlternateText>Cube Cross Race Pro, grey/flash yellow</AlternateText>
+  </Ad>
+  <Ad>
+    <ImageUrl>~/Images/Nowosci/Rowery/4.png</ImageUrl>
+    <NavigateUrl>#</NavigateUrl>
+    <AlternateText>Cube Cross Race Pro, grey/flash yellow</AlternateText>
+  </Ad>
+  <Ad>
+    <ImageUrl>~/Images/Nowosci/Rowery/5.png</ImageUrl>
+    <NavigateUrl>#</NavigateUrl>
+    <AlternateText>Cube Cross Race Pro, grey/flash yellow</AlternateText>
+  </Ad>
+</Advertisements>
+

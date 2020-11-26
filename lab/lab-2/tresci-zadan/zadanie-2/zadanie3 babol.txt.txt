@@ -1,0 +1,9 @@
+WebForms UnobtrusiveValidationMode Requires a ScriptResourceMapping for jQuery
+trzeba dodaæ 
+
+  <appSettings>
+    <add key="ValidationSettings:UnobtrusiveValidationMode" value="None" />    
+  </appSettings> 
+
+
+w plicu web.config
